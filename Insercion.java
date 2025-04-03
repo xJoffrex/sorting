@@ -17,10 +17,7 @@ public class Insercion {
             int valorAInsertar = arr[i];
             int j = i - 1;
 
-            while (j >= 0 &&
-
-                   ((orden.equals("A") && arr[j] > valorAInsertar) ||
-                    (orden.equals("D") && arr[j] < valorAInsertar))) {
+            while (j >= 0 && ((orden.equals("A") && arr[j] > valorAInsertar) || (orden.equals("D") && arr[j] < valorAInsertar))) {
 
                 comps = comps + 1;
                 inters = inters + 1;
